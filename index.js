@@ -8,4 +8,8 @@ app.get('/about',(req, res)=>{
     console.log("About page loaded in the logs")
     res.send("<h1>This is About Page</h1>")
 })
+app.get('/home',(req, res)=>{
+    console.log("Home page loaded in the logs")
+    res.send("<h1>This is Home Page</h1>")
+})
 app.listen(3000);
